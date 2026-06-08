@@ -1,0 +1,135 @@
+{
+  "name": "梁檬煜",
+  "email": "celestemodest@gmail.com",
+  "phone": "19883146211",
+  "location": "",
+  "summary": "",
+  "education": [
+    {
+      "degree": "硕士",
+      "field": "ICT Innovation（视觉计算与通信方向）",
+      "institution": "KTH 皇家理工学院（KTH Royal Institute of Technology）",
+      "year_start": "2023",
+      "year_end": "2026",
+      "gpa": "4.22/5.0"
+    },
+    {
+      "degree": "学士",
+      "field": "光电信息科学与工程",
+      "institution": "浙江大学",
+      "year_start": "2019",
+      "year_end": "2023",
+      "gpa": "3.6/4.0"
+    }
+  ],
+  "experience": [
+    {
+      "title": "硕士论文研究",
+      "company": "KTH 皇家理工学院",
+      "location": "瑞典，斯德哥尔摩",
+      "start": "2025.1",
+      "end": "2026.1",
+      "description": "项目：Detection and Recognition: A Pairwise Interaction Framework for Mobile Service Robots\n• 提出一种面向移动服务机器人的轻量级双阶段图神经网络框架，用于多人交互检测与行为识别\n• 结合几何与运动特征，在无需人体骨架与复杂外观建模的条件下实现鲁棒社交感知\n• 在多个公开数据集及割草机器人平台上完成实验验证，展现良好的泛化能力与实时性能"
+    },
+    {
+      "title": "助教",
+      "company": "KTH 皇家理工学院",
+      "location": "瑞典，斯德哥尔摩",
+      "start": "2024.10",
+      "end": "2025.1",
+      "description": "• 担任DD2423《Image Analysis and Computer Vision》课程助教\n• 负责作业批改、实验指导与课程答疑，协助学生完成图像处理与计算机视觉相关项目"
+    },
+    {
+      "title": "本科毕业设计",
+      "company": "中国科学院上海光学精密机械研究所",
+      "location": "中国，上海",
+      "start": "2023.2",
+      "end": "2023.6",
+      "description": "项目：基于氧化铪与氧化铝材料的皮秒激光反射镜研究\n• 设计并制备氧化铪/氧化硅与氧化铝/氧化硅组合膜系的皮秒激光反射镜\n• 相较传统纯氧化铪膜系，在1053nm、8ps 脉冲激光条件下实现约1.4 倍损伤阈值提升\n• 实验结果表明新膜系具有更低表面缺陷密度与更优稳定性"
+    },
+    {
+      "title": "交换生",
+      "company": "华中科技大学",
+      "location": "中国，湖北",
+      "start": "2022.3",
+      "end": "2022.7",
+      "description": "\"王大珩实验班\"交换生"
+    },
+    {
+      "title": "项目",
+      "company": "",
+      "location": "",
+      "start": "2026.4",
+      "end": "",
+      "description": "弹道参数计算与可视化系统\n• 基于WebAssembly 弹道引擎与Leaflet 地图实现浏览器端弹道参数计算系统\n• 支持发射点/目标点交互选取，并实时计算射程、方位角、速度与动能等参数\n• 通过弹道缩放算法实现超远程弹道轨迹的快速模拟与可视化"
+    },
+    {
+      "title": "项目",
+      "company": "",
+      "location": "",
+      "start": "2026.1",
+      "end": "",
+      "description": "基于元胞自动机的沙粒物理消除游戏\n• 基于经典俄罗斯方块机制设计沙粒化物理消除系统\n• 使用元胞自动机模拟像素级颗粒重力堆积与动态扩散行为\n• 实现基于连通区域检测的跨屏幕消除机制与实时状态更新"
+    },
+    {
+      "title": "项目",
+      "company": "",
+      "location": "",
+      "start": "2025.1",
+      "end": "2025.5",
+      "description": "CS2 Demo 数据分析与可视化平台\n• 使用TypeScript 开发CS2 比赛Demo 数据解析与可视化系统\n• 支持KAST、Rating、KD、对位击杀与关键时间节点等赛事指标分析\n• 实现比赛过程时间轴与玩家行为数据的交互式展示"
+    },
+    {
+      "title": "项目",
+      "company": "",
+      "location": "",
+      "start": "2024.7",
+      "end": "2024.11",
+      "description": "牙科美学评估系统合作研究\n• 与浙江大学医学院合作开发基于口腔扫描的牙科美学评估系统\n• 基于口腔图像与Segment Anything Model 2 (SAM2) 提取牙齿美学评价指标\n• 支持术前与术后效果量化分析与自动化评估"
+    },
+    {
+      "title": "项目",
+      "company": "",
+      "location": "",
+      "start": "2023.12",
+      "end": "2024.6",
+      "description": "二手交易平台开发\n面向KTH 校园社区的二手物品交易平台，基于PHP+MySQL 和原生前端技术，支持商品发布、分类浏览、站内消息与订单追踪功能。"
+    },
+    {
+      "title": "大学生科研训练计划（SRTP）",
+      "company": "",
+      "location": "",
+      "start": "2021.5",
+      "end": "2022.6",
+      "description": "基于长短期记忆网络（LSTM）开发的交通流量预测模型。"
+    }
+  ],
+  "skills": [
+    "Python",
+    "C++",
+    "TypeScript",
+    "PyTorch",
+    "OpenCV",
+    "SAM/SAM2",
+    "GNN",
+    "CNN",
+    "Computer Vision",
+    "Git",
+    "Linux",
+    "Docker"
+  ],
+  "languages": [],
+  "publications": [
+    {
+      "title": "Detection and Recognition: A Pairwise Interaction Framework for Mobile Service Robots",
+      "venue": "arXiv",
+      "year": "2026"
+    }
+  ],
+  "awards": [],
+  "links": {
+    "github": "",
+    "linkedin": "",
+    "website": ""
+  }
+}

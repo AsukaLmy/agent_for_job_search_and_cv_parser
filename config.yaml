@@ -1,0 +1,73 @@
+# AutoCV Configuration
+# API keys go in .env (never commit .env to git)
+
+ai:
+  model: "deepseek-v4-flash"
+  base_url: "https://api.deepseek.com"
+
+resume:
+  path: "resume/"      # Directory containing your PDF resume
+
+scraping:
+  delay_seconds: 2     # Polite delay between requests
+  platforms:
+    mcpjobs:
+      enabled: true
+      keywords:
+        # AI Agent 方向
+        - "AI Agent 工程师"
+        - "大模型智能体开发"
+        - "具身智能工程师"
+        # 嵌入式 / 边缘 AI
+        - "嵌入式 AI 工程师"
+        - "TinyML 边缘计算"
+        - "模型轻量化部署"
+        # 视觉感知 / 机器人
+        - "视觉 SLAM 算法工程师"
+        - "3D 视觉工程师"
+        - "多目标跟踪算法"
+        - "图神经网络工程师"
+        # 校招 / 实习
+        - "感知算法校招"
+        - "机器人算法实习"
+        - "AI 算法实习"
+        - "深度学习实习"
+      city: ""         # Leave empty for all cities; e.g. "北京", "上海", "深圳"
+      max_pages: 3     # Pages per keyword across all Chinese platforms
+    jobspy:
+      enabled: false
+      keywords: ["machine learning engineer", "software engineer", "data scientist", "AI researcher"]
+      location: ""     # Leave empty for global; e.g. "San Francisco, CA" or "Hong Kong"
+      sites: ["linkedin", "indeed", "glassdoor"]
+      max_results: 30  # Per keyword
+    boss:
+      enabled: false    # Disabled: anti-bot not yet resolved
+      keywords: ["算法工程师", "机器学习", "软件工程师", "数据科学"]
+      city: "全国"
+    zhilian:
+      enabled: false    # Replaced by mcpjobs
+      keywords: ["算法工程师", "机器学习", "研究员"]
+      city: "全国"
+    findaphd:
+      enabled: false    # PhD search removed
+      keywords: ["machine learning", "computer science", "AI"]
+      country: ""
+    phdportals:
+      enabled: false    # PhD search removed
+      keywords: ["machine learning", "artificial intelligence"]
+      country: "HK"
+    phdseeker:
+      enabled: false    # PhD search removed
+      keywords: ["machine learning", "computer science", "artificial intelligence"]
+      country: ""
+
+matching:
+  min_score: 60        # Jobs below this score are filtered out
+  batch_size: 10
+  api_delay_seconds: 1 # Delay between DeepSeek API calls (rate control)
+
+submission:
+  min_score: 70
+  auto_submit: false   # ALWAYS keep false — human reviews before submit
+  motivation_letter:
+    max_words: 400

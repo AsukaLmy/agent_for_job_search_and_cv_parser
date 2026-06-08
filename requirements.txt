@@ -1,0 +1,13 @@
+openai>=1.30.0
+python-dotenv>=1.0.0
+pymupdf>=1.25.0
+playwright>=1.50.0
+httpx>=0.28.0
+beautifulsoup4>=4.13.0
+rich>=10.14.0,<14
+pyyaml>=6.0
+lxml>=5.0.0
+python-jobspy>=0.1.0
+phdseeker>=1.0.0
+pandas>=2.0.0
+mcp>=1.0.0
