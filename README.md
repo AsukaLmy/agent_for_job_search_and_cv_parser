@@ -121,9 +121,9 @@ python main.py run
 
 ```
 autocv/
-├── resume/          # 放置 PDF 简历（已被 .gitignore 排除）
+├── resume/          # 放置 PDF 简历（用户本地放入）
 ├── data/
-│   └── jobs.db      # SQLite 职位数据库（已被 .gitignore 排除）
+│   └── jobs.db      # SQLite 职位数据库（依据用户选择生成）
 ├── src/
 │   ├── parser.py    # 简历解析
 │   ├── matcher.py   # AI 匹配评分
@@ -132,7 +132,7 @@ autocv/
 │   └── scrapers/    # 各平台爬虫
 ├── main.py          # CLI 入口
 ├── config.yaml      # 配置文件
-└── .env             # API Key（本地专用，不提交）
+└── .env             # API Key（本地专用，用户设置）
 ```
 
 ---
